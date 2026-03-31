@@ -1,0 +1,14 @@
+{
+  "instance_id": "A-n37-k6",
+  "source": {
+    "vrp_file": "C:\\Users\\Administrator\\Desktop\\CVRP\\A\\A-n37-k6.vrp",
+    "sol_file": "C:\\Users\\Administrator\\Desktop\\CVRP\\A\\A-n37-k6.sol"
+  },
+  "parser_version": "1.0",
+  "raw_comment": "(Augerat et al, No of trucks: 6, Optimal value: 949)",
+  "edge_weight_type": "EUC_2D",
+  "edge_weight_format": null,
+  "depot_ids": [
+    1
+  ]
+}

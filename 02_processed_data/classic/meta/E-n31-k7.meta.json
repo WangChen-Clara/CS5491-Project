@@ -1,0 +1,14 @@
+{
+  "instance_id": "E-n31-k7",
+  "source": {
+    "vrp_file": "C:\\Users\\Administrator\\Desktop\\CVRP\\E\\E-n31-k7.vrp",
+    "sol_file": "C:\\Users\\Administrator\\Desktop\\CVRP\\E\\E-n31-k7.sol"
+  },
+  "parser_version": "1.0",
+  "raw_comment": "(Eilon et al, Min no of trucks: 7, Optimal value: 379)",
+  "edge_weight_type": "EXPLICIT",
+  "edge_weight_format": "LOWER_ROW",
+  "depot_ids": [
+    1
+  ]
+}

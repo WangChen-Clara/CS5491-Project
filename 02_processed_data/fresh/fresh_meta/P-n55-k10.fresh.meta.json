@@ -1,0 +1,68 @@
+{
+  "instance_id": "P-n55-k10",
+  "source_base_file": "C:\\Users\\Administrator\\Desktop\\CVRP\\data\\processed\\base\\P-n55-k10.base.json",
+  "generator_version": "1.0",
+  "global_seed": 5491,
+  "instance_seed": 496320933,
+  "service_time_rule": "5 + ceil(0.2 * demand)",
+  "time_window_rule": "distance-band base windows + jitter[-20,20]",
+  "freshness_rule": "demand quantile 30/70 -> low/medium/high",
+  "max_travel_rule": {
+    "high": 90,
+    "medium": 180,
+    "low": 300
+  },
+  "temp_zone_rule": {
+    "high": [
+      [
+        "frozen",
+        0.35
+      ],
+      [
+        "chilled",
+        0.5
+      ],
+      [
+        "ambient",
+        0.15
+      ]
+    ],
+    "medium": [
+      [
+        "frozen",
+        0.2
+      ],
+      [
+        "chilled",
+        0.5
+      ],
+      [
+        "ambient",
+        0.3
+      ]
+    ],
+    "low": [
+      [
+        "frozen",
+        0.1
+      ],
+      [
+        "chilled",
+        0.25
+      ],
+      [
+        "ambient",
+        0.65
+      ]
+    ]
+  },
+  "penalty_rule": {
+    "late_penalty_per_min": "0.8 * demand",
+    "spoilage_penalty": "2.0 * demand * freshness_weight",
+    "freshness_weight": {
+      "high": 1.5,
+      "medium": 1.0,
+      "low": 0.7
+    }
+  }
+}
