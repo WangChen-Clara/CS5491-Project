@@ -8,12 +8,12 @@
 - mock 与 LLM 候选表达式搜索对照实验
 - 实验结果导出、图表生成与轻量交付包构建
 
-## 当前目录结构（已存在）
+## 当前目录结构
 
 - `01_raw_data/`：原始数据与原始文档
 - `02_processed_data/`：标准化后的 classic/fresh 数据
 - `03_core_algorithm/`：核心算法模块与 notebook
-- `04_experiment_outputs/`：实验输出（运行脚本后生成）
+- `04_experiment_outputs/`：实验输出
 - `05_scripts/`：可直接运行的 pipeline 脚本入口
 - `06_docs/`：流程、数据结构、交接文档
 
